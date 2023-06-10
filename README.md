@@ -4,8 +4,16 @@ This is a plugin for Strapi that provides endpoints to interact with the media l
 
 ## Installation
 
+npm
+
 ```shell
-npm install
+npm i strapi-plugin-file-system
+```
+
+yarn
+
+```shell
+yarn add strapi-plugin-file-system
 ```
 
 1. Clone the repository or download the source code.

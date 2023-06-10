@@ -46,5 +46,13 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dej10/strapi-plugin-file-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dej10/strapi-plugin-file-system/issues"
+  },
+  "homepage": "https://github.com/dej10/strapi-plugin-file-system#readme",
   "license": "MIT"
 }
