@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A plugin for Strapi that provides endpoints to interact with the file system, allowing you to retrieve folders and files.",
   "strapi": {
-    "name": "File System API",
+    "name": "file-system-api",
     "description": "A plugin for Strapi that provides endpoints to interact with the file system, allowing you to retrieve folders and files.",
     "kind": "plugin",
-    "displayName": "File System API"
+    "displayName": "file-system-api"
   },
   "keywords": [
     "strapi",
