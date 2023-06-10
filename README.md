@@ -2,17 +2,24 @@
 
 This is a plugin for Strapi that provides endpoints to interact with the media library, allowing you to retrieve folders and files.
 
+- [Strapi Plugin File-Sysytem](#strapi-plugin-file-sysytem)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Get a specific folder by name](#get-a-specific-folder-by-name)
+    - [Get all folders](#get-all-folders)
+    - [Get root-level files](#get-root-level-files)
+  - [Contributing](#contributing)
+  - [License](#license)
+
 ## Installation
 
-npm
-
-```shell
-npm i strapi-plugin-file-system
+```bash
+npm install strapi-plugin-file-system
 ```
 
-yarn
+or
 
-```shell
+```bash
 yarn add strapi-plugin-file-system
 ```
 
@@ -32,6 +39,7 @@ Endpoint: GET /fs/docs/:folderName
 ```
 
 Description: Retrieves a specific folder from the media library by its name. Replace `:folderName` in the URL with the actual name of the folder.
+It will also show all children/folders nested in it and files
 
 ### Get all folders
 
