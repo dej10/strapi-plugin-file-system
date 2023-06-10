@@ -1,0 +1,49 @@
+{
+  "name": "strapi-plugin-file-system",
+  "version": "0.0.0",
+  "description": "A plugin for Strapi that provides endpoints to interact with the file system, allowing you to retrieve folders and files.",
+  "strapi": {
+    "name": "File System API",
+    "description": "A plugin for Strapi that provides endpoints to interact with the file system, allowing you to retrieve folders and files.",
+    "kind": "plugin",
+    "displayName": "File System API"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "file system",
+    "file management",
+    "media library"
+  ],
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "author": {
+    "name": "Ayodeji Alarape"
+  },
+  "maintainers": [
+    {
+      "name": "Ayodeji Alarape"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
