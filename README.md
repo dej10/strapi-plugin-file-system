@@ -1,9 +1,10 @@
-# Strapi Plugin File-Sysytem
+# Strapi Plugin File-System
 
 This is a plugin for Strapi that provides endpoints to interact with the media library, allowing you to retrieve folders and files.
 
-- [Strapi Plugin File-Sysytem](#strapi-plugin-file-sysytem)
+- [Strapi Plugin File-System](#strapi-plugin-file-system)
   - [Installation](#installation)
+    - [Enable The plugin](#enable-the-plugin)
   - [Usage](#usage)
     - [Get a specific folder by name](#get-a-specific-folder-by-name)
     - [Get all folders](#get-all-folders)
@@ -23,10 +24,19 @@ or
 yarn add strapi-plugin-file-system
 ```
 
-1. Clone the repository or download the source code.
-2. Copy the plugin folder into your Strapi project's `plugins` directory.
-3. Install the plugin's dependencies by running the following command:
-4. Start your server
+### Enable The plugin
+
+```javascript
+module.exports = ({ env }) => ({
+  // ...
+
+  'file-system': {
+    enabled: true,
+  },
+
+  // ...
+})
+```
 
 ## Usage
 
@@ -35,7 +45,7 @@ Once the plugin is installed and the Strapi server is running, you can access th
 ### Get a specific folder by name
 
 ```bash
-Endpoint: GET /fs/docs/:folderName
+Endpoint: GET /file-system/docs/:folderName
 ```
 
 Description: Retrieves a specific folder from the media library by its name. Replace `:folderName` in the URL with the actual name of the folder.
@@ -44,7 +54,7 @@ It will also show all children/folders nested in it and files
 ### Get all folders
 
 ```bash
-Endpoint: GET /fs/folders
+Endpoint: GET /file-system/folders
 ```
 
 Description: Retrieves all folders from the media library.
@@ -52,7 +62,7 @@ Description: Retrieves all folders from the media library.
 ### Get root-level files
 
 ```bash
-Endpoint: GET /fs/root-files
+Endpoint: GET /file-system/root-files
 ```
 
 Description: Retrieves all files located at the root level of the media library.
