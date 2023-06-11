@@ -16,6 +16,9 @@
     "media library"
   ],
   "dependencies": {},
+  "peerDependencies": {
+    "@strapi/strapi": "^4.4.5"
+  },
   "author": {
     "name": "Ayodeji Alarape"
   },

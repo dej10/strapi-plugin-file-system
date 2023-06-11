@@ -9,7 +9,12 @@ This is a plugin for Strapi that provides endpoints to interact with the media l
     - [Get a specific folder by name](#get-a-specific-folder-by-name)
     - [Get all folders](#get-all-folders)
     - [Get root-level files](#get-root-level-files)
-  - [Contributing](#contributing)
+  - [Plugin Issue Submission Instructions](#plugin-issue-submission-instructions)
+  - [Step 1: Check the Documentation](#step-1-check-the-documentation)
+  - [Step 2: Browse Existing Issues](#step-2-browse-existing-issues)
+  - [Step 3: Submitting an Issue](#step-3-submitting-an-issue)
+  - [Step 4: Engaging with the Community](#step-4-engaging-with-the-community)
+  - [Step 5: Providing Feedback and Contributing](#step-5-providing-feedback-and-contributing)
   - [License](#license)
 
 ## Installation
@@ -70,10 +75,50 @@ Configuration
 
 `No additional configuration is required for this plugin.`
 
-## Contributing
+## Plugin Issue Submission Instructions
+
+Thank you for using our plugin! If you encounter any issues or have questions, please follow these instructions to submit them:
+
+## Step 1: Check the Documentation
+
+Before submitting an issue, please refer to the documentation provided with the plugin. It may already address your concern or provide a solution.
+
+## Step 2: Browse Existing Issues
+
+Take a moment to browse through the existing issues in our plugin's repository. Your issue might have already been reported or resolved. This can save you time and provide additional insights.
+
+## Step 3: Submitting an Issue
+
+If you cannot find a resolution to your problem, follow these steps to submit an issue:
+
+1. Go to the plugin's repository on [GitHub](https://github.com/dej10/strapi-plugin-file-system).
+
+2. Click on the "Issues" tab.
+
+3. Click on the "New Issue" button.
+
+4. Provide a clear and descriptive title for your issue.
+
+5. In the issue description, explain the problem you are facing in detail. Include any relevant error messages, steps to reproduce the issue, and the expected behavior.
+
+6. If applicable, provide the version of the plugin you are using, as well as information about your environment (e.g., operating system, browser, etc.).
+
+7. Attach any relevant screenshots or code snippets that can help us understand the issue better.
+
+8. Click on the "Submit new issue" button to create the issue.
+
+## Step 4: Engaging with the Community
+
+Once you've submitted your issue, our team will review it and provide assistance as soon as possible. In the meantime, you can engage with the community:
+
+- Check for updates on your issue to see if any team members or community members have requested additional information or provided suggestions.
+
+- Feel free to participate in discussions on other open issues or pull requests if you have relevant insights or can help other users.
+
+## Step 5: Providing Feedback and Contributing
 
 Contributions are welcome! If you find any issues or want to add new features, feel free to open an issue or submit a pull request.
 
 ## License
 
-This plugin is licensed under the MIT License. See the LICENSE file for more details.#
+This plugin is licensed under the MIT License. See the LICENSE file for more details.
