@@ -5,11 +5,11 @@ module.exports = ({ strapi }) => ({
   getOne: async (ctx, next) => {
 
     try {
-      const { name } = ctx.params;
+      const { folderName } = ctx.params;
       const folder = await strapi.query("plugin::upload.folder").findOne({
         where: {
           name: {
-            $eqi: name,
+            $eqi: folderName,
           },
         },
         populate: ["files", "children"],
