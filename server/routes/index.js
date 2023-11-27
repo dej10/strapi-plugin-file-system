@@ -1,11 +1,20 @@
 module.exports = [
   {
     method: 'GET',
+    path: '/root-files',
+    handler: 'fs.getBaseFiles',
+      config: {
+      policies: [],
+      auth: false,
+    },
+  },
+  {
+    method: 'GET',
     path: '/docs/:folderName',
     handler: 'fs.getOne',
       config: {
       policies: [],
-      auth:false,
+      auth: false,
     },
   },
   {
@@ -14,17 +23,16 @@ module.exports = [
     handler: 'fs.getAllFolders',
       config: {
       policies: [],
-      auth:false,
+      auth: false,
     },
   },
   {
     method: 'GET',
-    path: '/root-files',
-    handler: 'fs.getBaseFiles',
+    path: '/folder',
+    handler: 'fs.getFolder',
       config: {
       policies: [],
-      auth:false,
+      auth: false,
     },
   },
-
 ];

@@ -54,7 +54,21 @@ Endpoint: GET /file-system/docs/:folderName
 ```
 
 Description: Retrieves a specific folder from the media library by its name. Replace `:folderName` in the URL with the actual name of the folder.
-It will also show all children/folders nested in it and files
+It will also show all children/folders nested in it and files.
+
+Warning: If you have complex structure of folders in your media library and you have few folders with same name then API will return always the first matching of folder name. In this case please use fetching a specific folder by path to have ability retrieve proper folder.
+
+### Get a specific folder by path
+
+```bash
+Endpoint: GET /file-system/folder?path=fullPathToFolder
+```
+
+Description: Retrieves a specific folder from the media library by its path. Replace `fullPathToFolder` in the URL with the actual full path to the folder. First and last slashed in the path can be present or omit.
+It will also show all files and folders nested in it.
+Example:
+Path: `/resorts/location2/photos`
+Request: `/file-system/folder?path=/resorts/location2/photos`
 
 ### Get all folders
 
