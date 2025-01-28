@@ -17,6 +17,9 @@ This is a plugin for Strapi that provides endpoints to interact with the media l
   - [Step 5: Providing Feedback and Contributing](#step-5-providing-feedback-and-contributing)
   - [License](#license)
 
+
+ - [Strapi v5 Support](#v5)
+
 ## Installation
 
 ```bash
@@ -136,3 +139,16 @@ Contributions are welcome! If you find any issues or want to add new features, f
 ## License
 
 This plugin is licensed under the MIT License. See the LICENSE file for more details.
+
+
+## v5
+
+If you are using Strapi v5; add this to your package.json to get rid of any version errors ✨
+
+```javascript
+"overrides": {
+  "strapi-plugin-file-system": {
+    "@strapi/strapi": "5.0.5"
+  }
+}
+```
