@@ -32,7 +32,7 @@ or
 yarn add strapi-plugin-file-system
 ```
 
-### Enable The plugin
+### Enable the plugin
 
 ```javascript
 module.exports = ({ env }) => ({
@@ -52,7 +52,7 @@ Once the plugin is installed and the Strapi server is running, you can access th
 
 ### Get a specific folder by name
 
-```bash
+```
 Endpoint: GET /file-system/docs/:folderName
 ```
 
@@ -63,7 +63,7 @@ Warning: If you have complex structure of folders in your media library and you 
 
 ### Get a specific folder by path
 
-```bash
+```
 Endpoint: GET /file-system/folder?path=fullPathToFolder
 ```
 
@@ -75,7 +75,7 @@ Request: `/file-system/folder?path=/resorts/location2/photos`
 
 ### Get all folders
 
-```bash
+```
 Endpoint: GET /file-system/folders
 ```
 
@@ -83,14 +83,15 @@ Description: Retrieves all folders from the media library.
 
 ### Get root-level files
 
-```bash
+```
 Endpoint: GET /file-system/root-files
 ```
 
 Description: Retrieves all files located at the root level of the media library.
-Configuration
 
-`No additional configuration is required for this plugin.`
+## Configuration
+
+No additional configuration is required for this plugin.
 
 ## Plugin Issue Submission Instructions
 
